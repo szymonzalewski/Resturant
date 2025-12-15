@@ -5,15 +5,14 @@
 .navigation {
     text-align: center;
     font-size: 30px;
-    
     justify-content: space-between;
 }
 
 .navigation a {
-color: aliceblue;
+    color: aliceblue;
     text-decoration: none;
+    border: 2px solid black;
 }
 a:hover{
-    font-size: 35px;
     color: rgb(64, 181, 41);
 }
