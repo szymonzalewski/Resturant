@@ -1,0 +1,19 @@
+.title-header {
+    width: 100%;
+    height: 200px;
+}
+.navigation {
+    text-align: center;
+    font-size: 30px;
+    
+    justify-content: space-between;
+}
+
+.navigation a {
+color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 35px;
+    color: rgb(64, 181, 41);
+}
