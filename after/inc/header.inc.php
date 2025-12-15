@@ -8,7 +8,7 @@
     <title>Pyszna resturacja &bull; <?php echo $pageTitle; ?></title>
 </head>
 <body>
-    <header class="title-header" style="background-image: url(<?php echo $headerImg; ?>);">
+    <header class="title-header" style=" background-image: url(<?php echo $headerImg; ?>);" >
         <h1>Pyszna resturacja</h1>
         <p>Tylko najlepsze produkty</p>
         <nav class="navigation">

@@ -1,6 +1,9 @@
 <?php
+
+$pageTitle = "Menu";
 $headerImg = 'images/menu.jpg';
-include 'inc/header.inc.php'
+include 'inc/header.inc.php';
+
  ?>
 
 
@@ -21,3 +24,5 @@ include 'inc/header.inc.php'
 <figure>
     <img src="images/menu.jpg" alt="zdjecie">
 </figure>
+
+<?php include 'inc/footer.inc.php'; ?>

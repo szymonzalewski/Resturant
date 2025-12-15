@@ -1,7 +1,21 @@
 .title-header {
+     position: relative;
     width: 100%;
     height: 200px;
 }
+.title-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.4); 
+    z-index: 1;
+}
+
+.title-header * {
+    position: relative;
+    z-index: 2;
+}
+
 .navigation {
     text-align: center;
     font-size: 30px;
@@ -9,10 +23,15 @@
 }
 
 .navigation a {
-    color: aliceblue;
+    display: inline-block; 
+    padding: 15px 30px; 
+    color: black;
     text-decoration: none;
     border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.634);
+    border-radius: 5px;
 }
 a:hover{
     color: rgb(64, 181, 41);
 }
+
